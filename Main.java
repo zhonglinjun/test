@@ -11,5 +11,6 @@ public class Main {
 		UserService userService = (UserService) ctx.getBean("userServiceImplement");
 		userService.deleteUser("------------------------------");
 		userService.deleteUser("------------------------------");
+		userService.deleteUser("------------------------------");
 	}
 }
