@@ -9,6 +9,6 @@ public class Main {
 		
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		UserService userService = (UserService) ctx.getBean("userServiceImplement");
-		userService.deleteUser("2");
+		userService.deleteUser("2222222");
 	}
 }
