@@ -12,5 +12,6 @@ public class Main {
 		userService.deleteUser("------------------------------");
 		userService.deleteUser("------------------------------");
 		userService.deleteUser("------------------------------");
+		userService.deleteUser("=============================");
 	}
 }
