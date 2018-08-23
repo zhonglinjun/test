@@ -48,7 +48,7 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
 		<!-- 配置结果视图的前缀和后缀 ,页面路径默认在webContent下 /test/表示jsp文件在test文件夹 -->
-		<property name="prefix" value="/jsp/" />
+		<property name="prefix" value="/jsp/22222222222222222222222" />
 		<property name="suffix" value=".jsp" />
 	</bean>
 </beans>
