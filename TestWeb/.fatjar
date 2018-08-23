@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Aug 17 11:55:17 CST 2018
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=TestWeb_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.dj.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TestWeb</display-name>
+  <servlet>
+    <servlet-name>WeblogicTest</servlet-name>
+    <servlet-class>com.dj.WeblogicTest</servlet-class>
+  </servlet>
+  <!--映射servlet-->
+  <servlet-mapping>
+    <!--与之前的Servlet注册名一直，以此来映射-->
+    <servlet-name>WeblogicTest</servlet-name>
+    <!--url映射路径，表示/demo路径下demo文件跳转到DemoServlet类处理-->
+    <url-pattern>/WeblogicTest</url-pattern>
+  </servlet-mapping>
+</web-app>
